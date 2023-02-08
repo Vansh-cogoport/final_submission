@@ -52,7 +52,7 @@ const Cards = ({blog}) => {
               <img src="/pixels.jpeg" className="card-img-top img-fluid" alt="..."/> 
               </div>
             
-            <div style={{marginTop:'-15%',backdropFilter:'blur(5px)'}} >
+            <div style={{marginTop:'-10%',backdropFilter:'blur(5px)'}} >
               <div className='p-2'>
                      <div class="d-flex justify-content-between" style={{color:'#FFFFFF'}}>
                         <div>{blog.name}</div>
@@ -65,7 +65,7 @@ const Cards = ({blog}) => {
             </div>
           <div className="card-body">
           <h5 className="card-title">{blog.title}</h5>
-           <p className="card-text">ghsdd</p>
+           <p className="card-text">This is blog Card</p>
           <Link className='btn' to={`/article/${blog.id}`} style={{color:'#6941C6'}}>
                Read More
           </Link>
