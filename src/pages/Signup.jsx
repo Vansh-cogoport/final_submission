@@ -30,7 +30,7 @@ const Signup = () => {
         password_confirmation: signcnfRef.current.value
       })
     });
-     if(signpassRef.current.value==signcnfRef.current.value && !signnameRef.current.value && !signemailRef.current.value && !signpassRef.current.value && !signcnfRef.current.value)
+     if(signpassRef.current.value===signcnfRef.current.value && signnameRef.current.value && signemailRef.current.value && signpassRef.current.value && signcnfRef.current.value)
     {
       const data  = await response.json();
     console.log(data);
